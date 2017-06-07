@@ -1,0 +1,95 @@
+body {
+background:#262523 url("bg-body.jpg");
+background-repeat: no-repeat;
+background-position:center top;
+
+
+}
+
+.container {
+display:block;
+width:50%;
+margin: 0 auto;
+}
+
+.wrapper {
+display:flex;
+}
+
+.txt-white {
+color:white;
+}
+
+.bg-image {
+background-image: url("icons.gif");
+background-repeat: no-repeat;
+}
+
+
+.info {
+list-style-type: none;
+font-size: 25px;
+text-transform: uppercase;
+display:flex;
+flex-wrap: wrap;
+line-height: 40px;
+
+}
+.box {
+
+}
+
+.info li a {
+color:white;
+text-decoration: none;
+}
+
+.home{
+background-position: 0 -73px;
+padding-left: 35px;
+}
+
+.f-home {
+flex-basis: 15%;
+}
+
+.phone {
+background-position: 0 -145px;
+padding-left: 35px;
+}
+
+.f-phone {
+}
+
+.address {
+background-position: 0 -150px;
+padding-left: 35px;
+}
+
+.f-address {
+}
+
+.home-link {
+background-image: url("logo.gif");
+background-repeat: no-repeat;
+width: 330px;
+height: 83px;
+margin-right: 10px;
+}
+
+.menu-link {
+background-image: url("breakfast-buffet.gif");
+background-repeat: no-repeat;
+width: 462px;
+height: 80px;
+}
+
+.sign {
+background-image: url("schedule.gif");
+background-repeat: no-repeat;
+height:125px;
+width:160px;
+position:relative;
+top: 20px;
+right:700px;
+}
